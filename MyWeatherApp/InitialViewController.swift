@@ -87,6 +87,8 @@ class InitialViewController: UIViewController, UICollectionViewDelegate, UIColle
         //self.uvLbl.text = "\((self.json.value(forKey: "wind") as! NSDictionary).value(forKey: "speed") as! NSNumber)"
         print(self.json)
     
+        
+        
     }
     
     @IBAction func nextBtnAct(_ sender: Any) {
